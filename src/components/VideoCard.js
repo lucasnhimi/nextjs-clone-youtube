@@ -24,7 +24,7 @@ function VideoCard({ item }) {
     <Box>
       <img alt={item.title} src={item.thumb} className={classes.img} />
       <Box display="flex" mt="1">
-        <Box>
+        <Box mr={2}>
           <Avatar alt={item.authorName} src={item.authorAvatar}>
             SS
           </Avatar>
