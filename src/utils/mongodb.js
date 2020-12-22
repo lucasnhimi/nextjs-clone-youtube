@@ -3,8 +3,8 @@ import { MongoClient } from 'mongodb';
 const uri = process.env.MONGODB_URI;
 const dbName = process.env.MONGODB_DB;
 
-const cachedDb;
-const cachedClient;
+let cachedDb;
+let cachedClient;
 
 if (!uri) {
   throw new Error(
