@@ -28,6 +28,7 @@ export async function getStaticProps() {
     props: {
       data: JSON.parse(JSON.stringify(data)),
     }, // will be passed to the page component as props
+    revalidate: 15,
   };
 }
 
