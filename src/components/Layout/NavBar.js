@@ -137,7 +137,7 @@ function NavBar() {
         {!session ? (
           <Box mx={4} my={2}>
             <Typography variant="body2">
-              (ALTERADO) Faça login para curtur vídeos, comentar e se inscrever.
+              Faça login para curtur vídeos, comentar e se inscrever.
             </Typography>
             <Box mt={2}>
               <Button
